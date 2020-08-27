@@ -5,7 +5,7 @@ from collections import namedtuple
 
 ent_count = int(input('Введите кол-во: прдеприятий: '))
 QUART = 4
-Enterprise = namedtuple('name', 'name, quarters, profit')
+Enterprise = namedtuple('Enterprise', 'name, quarters, profit')
 result_info = set()
 total_profit = 0
 
